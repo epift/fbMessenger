@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		767097CA20B71AAB001EF8A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767097C920B71AAB001EF8A3 /* AppDelegate.swift */; };
 		767097CC20B71AAB001EF8A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767097CB20B71AAB001EF8A3 /* ViewController.swift */; };
-		767097CF20B71AAB001EF8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767097CD20B71AAB001EF8A3 /* Main.storyboard */; };
 		767097D220B71AAB001EF8A3 /* fbMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 767097D020B71AAB001EF8A3 /* fbMessenger.xcdatamodeld */; };
 		767097D420B71AAB001EF8A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767097D320B71AAB001EF8A3 /* Assets.xcassets */; };
 		767097D720B71AAB001EF8A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767097D520B71AAB001EF8A3 /* LaunchScreen.storyboard */; };
+		768B42DD20C0614D00A3ADAA /* FriendsControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B42DC20C0614D00A3ADAA /* FriendsControllerHelper.swift */; };
+		768B42F220C06A0700A3ADAA /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B42EE20C06A0700A3ADAA /* Message+CoreDataClass.swift */; };
+		768B42F320C06A0700A3ADAA /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B42EF20C06A0700A3ADAA /* Message+CoreDataProperties.swift */; };
+		768B42F420C06A0700A3ADAA /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B42F020C06A0700A3ADAA /* Friend+CoreDataClass.swift */; };
+		768B42F520C06A0700A3ADAA /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B42F120C06A0700A3ADAA /* Friend+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		767097C620B71AAB001EF8A3 /* fbMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		767097C920B71AAB001EF8A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		767097CB20B71AAB001EF8A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		767097CE20B71AAB001EF8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		767097D120B71AAB001EF8A3 /* fbMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fbMessenger.xcdatamodel; sourceTree = "<group>"; };
 		767097D320B71AAB001EF8A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		767097D620B71AAB001EF8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		767097D820B71AAB001EF8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768B42DC20C0614D00A3ADAA /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
+		768B42EE20C06A0700A3ADAA /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
+		768B42EF20C06A0700A3ADAA /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		768B42F020C06A0700A3ADAA /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		768B42F120C06A0700A3ADAA /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		767097C820B71AAB001EF8A3 /* fbMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				768B42EE20C06A0700A3ADAA /* Message+CoreDataClass.swift */,
+				768B42EF20C06A0700A3ADAA /* Message+CoreDataProperties.swift */,
+				768B42F020C06A0700A3ADAA /* Friend+CoreDataClass.swift */,
+				768B42F120C06A0700A3ADAA /* Friend+CoreDataProperties.swift */,
 				767097C920B71AAB001EF8A3 /* AppDelegate.swift */,
 				767097CB20B71AAB001EF8A3 /* ViewController.swift */,
-				767097CD20B71AAB001EF8A3 /* Main.storyboard */,
 				767097D320B71AAB001EF8A3 /* Assets.xcassets */,
 				767097D520B71AAB001EF8A3 /* LaunchScreen.storyboard */,
 				767097D820B71AAB001EF8A3 /* Info.plist */,
 				767097D020B71AAB001EF8A3 /* fbMessenger.xcdatamodeld */,
+				768B42DC20C0614D00A3ADAA /* FriendsControllerHelper.swift */,
 			);
 			path = fbMessenger;
 			sourceTree = "<group>";
@@ -128,7 +140,6 @@
 			files = (
 				767097D720B71AAB001EF8A3 /* LaunchScreen.storyboard in Resources */,
 				767097D420B71AAB001EF8A3 /* Assets.xcassets in Resources */,
-				767097CF20B71AAB001EF8A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,21 +152,18 @@
 			files = (
 				767097CC20B71AAB001EF8A3 /* ViewController.swift in Sources */,
 				767097D220B71AAB001EF8A3 /* fbMessenger.xcdatamodeld in Sources */,
+				768B42F320C06A0700A3ADAA /* Message+CoreDataProperties.swift in Sources */,
 				767097CA20B71AAB001EF8A3 /* AppDelegate.swift in Sources */,
+				768B42DD20C0614D00A3ADAA /* FriendsControllerHelper.swift in Sources */,
+				768B42F520C06A0700A3ADAA /* Friend+CoreDataProperties.swift in Sources */,
+				768B42F420C06A0700A3ADAA /* Friend+CoreDataClass.swift in Sources */,
+				768B42F220C06A0700A3ADAA /* Message+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		767097CD20B71AAB001EF8A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				767097CE20B71AAB001EF8A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		767097D520B71AAB001EF8A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
